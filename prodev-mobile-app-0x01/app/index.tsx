@@ -35,9 +35,18 @@ const styles = StyleSheet.create({
   textAlign: "right",
 },
   smallText: {
+<<<<<<< HEAD
   fontSize: 15,
   color: "#2196f3",
   fontWeight: "400",
   textAlign: "center",
 },
 });
+=======
+    fontSize: 15,
+    color: "#2196f3",
+    fontWeight: "400",
+    textAlign: "center",
+  },
+});
+>>>>>>> refs/remotes/origin/main
