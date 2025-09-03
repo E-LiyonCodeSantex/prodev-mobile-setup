@@ -59,6 +59,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
+  logoText:{
+    fontSize: 20,
+    fontWeight: 700,
+    color: '#2B876E'
+  },
   buttonText: {
     fontSize: 17,
     color: 'white'
