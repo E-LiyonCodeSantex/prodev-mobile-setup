@@ -13,3 +13,7 @@
     * To see some changes, i change the welcome! in app/(tabs)/index.txs to  ** First App Created**
 3. move the default appilication to an isolated folder (instead of deleting it for learning sake): npm run reset-project
     * If it prompts; Do you want to move existing files to /app-example instead of deleting them? (Y/n): typte 'y' and enter
+
+## Bonus: 
+* always save you work (ctr + s / cmd s) to see changes.
+* To render on web, do: npx expo start --web
