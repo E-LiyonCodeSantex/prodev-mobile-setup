@@ -3,11 +3,7 @@ import { Text, View, StyleSheet } from "react-native";
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      style={style.container}
     >
       <Text>Entry Screen - Awesome</Text>
       <Text style={styles.largeText}>Typescript is great if you practice more</Text>
@@ -19,8 +15,11 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#90caf9",
-  },
+  backgroundColor: "#227eca",
+  flex: 1,
+  justifyContent: "center",
+  alignItems: "center",
+},
   largeText: {
     fontSize: 30,
     color: "#f44336",
