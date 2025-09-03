@@ -15,38 +15,29 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   container: {
-  backgroundColor: "#227eca",
-  flex: 1,
-  justifyContent: "center",
-  alignItems: "center",
-},
+    backgroundColor: "#227eca",
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
   largeText: {
-  fontSize: 30,
-  color: "#f44336",
-  marginBottom: 5,
-  fontWeight: "700",
-  fontVariant: ["small-caps"],
-},
+    fontSize: 30,
+    color: "#f44336",
+    marginBottom: 5,
+    fontWeight: "700",
+    fontVariant: ["small-caps"],
+  },
   mediumText: {
-  fontSize: 20,
-  color: "#9c27b0",
-  marginBottom: 10,
-  fontWeight: "500",
-  textAlign: "right",
-},
+    fontSize: 20,
+    color: "#9c27b0",
+    marginBottom: 10,
+    fontWeight: "500",
+    textAlign: "right",
+  },
   smallText: {
-<<<<<<< HEAD
-  fontSize: 15,
-  color: "#2196f3",
-  fontWeight: "400",
-  textAlign: "center",
-},
-});
-=======
     fontSize: 15,
     color: "#2196f3",
     fontWeight: "400",
     textAlign: "center",
   },
 });
->>>>>>> refs/remotes/origin/main
